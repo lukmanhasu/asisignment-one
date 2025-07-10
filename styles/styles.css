@@ -1,9 +1,29 @@
+/*global-style*/
 *{
     margin: 0px;
 }
 body{
     font-family: Raleway;
     background-color: #F5F8FF;
+}
+.fixed-width{
+    width: 1140px;
+    margin: 0 auto;
+}
+h1{
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 65px;
+}
+h2{
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 42px;
+}
+h3{
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 38px;
 }
 /*button-style*/
 a{
@@ -22,25 +42,16 @@ a{
 .primary-button:hover{
     background-color: #FF8600;
 }
-h1{
-    font-family: raleway;
-    font-weight: bold;
-    font-size: 65px;
-}
 /*header-section*/
 header {
     background-image: 
         linear-gradient(rgba(78, 71, 255, 0.01)),
         url(../images/Hero-bg.png);
 }
-.fixed-width{
-    width: 1140px;
-    margin: 0 auto;
-}
 .logo{
     width: 150px;
 }
-.logo-head{
+.nav-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,4 +67,58 @@ header {
     text-align: center;
     row-gap: 37px;
 }
-
+/*action-section*/
+.action-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.action-section-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 23px;
+}
+.subtitle{
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-section-right{
+    width: 50%;
+}
+.Webflow-conf2022{
+    width: 100%;
+    border-radius: 48px;
+}
+.productive-users-section{
+    background-color: #277dff1e;
+    padding: 50px 80px;
+    margin-top: 116px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    text-align: center;
+    border-radius: 24px;
+}
+.Productive-data-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 158px;
+}
+.Productive-data{
+    font-family: inter;
+    font-weight: bold;
+    font-size: 80px;
+    color: #0166ff;
+}
+.three-data-subtitle{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
