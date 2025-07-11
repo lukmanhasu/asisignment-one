@@ -25,6 +25,17 @@ h3{
     font-weight: bold;
     font-size: 38px;
 }
+h4{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+}
+h6{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 16px;
+}
 /*button-style*/
 a{
     text-decoration: none;
@@ -194,4 +205,52 @@ ul li{
     line-height: 150%;
     color: #8987A1;
     margin-bottom: 10px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.reviewer-name{
+    color: #757575;
+}
+.review-date{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B3B3B3;
+}
+.avatar{
+    width: 50px;
+    border-radius: 100px;
+}
+.feedback{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #1E1E1E;
+    margin-top: -10px;
+}
+.review-box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+    border: solid 1px #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.reviews-section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.reviews-main-section{
+    margin-top: 137px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
 }
